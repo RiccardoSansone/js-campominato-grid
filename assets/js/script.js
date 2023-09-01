@@ -4,15 +4,6 @@
 // Ci saranno quindi 10 caselle per ognuna delle 10 righe.
 // Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed emetto un messaggio in console con il numero della cella cliccata.
 
-
-//ho bisogno di eventListener sul click del bottone genera
-//ho bisogno di una variabile limite
-//ho bisogno di creare una funzione che mi permetta di generare dinamicamente il singolo elemento della griglia
-//ho bisogno di un ciclo for per rendere ciclica la funzione 
-//useró il ciclo all'interno della funzione anonima dell'eventListener 
-//all'interno del ciclo richiameró la funzione
-//dentro la funzione avró bisogno di un eventListener al click sull'elemento generato per potergli cambiare colore e fargli stampare in console il numero
-
 const genera = document.querySelector('button');
 const limit = 100;
 const nodo = document.getElementById('node');
